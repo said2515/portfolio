@@ -1,0 +1,164 @@
+body {
+	background: #f4f4f4;
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+hr {
+	width: 100%;
+	height: 0.5px;
+	background: #8e8e8e;
+	border: none;
+	margin-top: 30px;
+}
+a {text-decoration: none;}
+.container{
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+}
+		/*=================
+			Шапка сайта
+		 ================= */
+.head {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 35px;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+ul.dws-ul {
+	display: flex;
+}
+li.dws-li {
+	list-style: none;
+	padding-left: 50px;
+	padding-top: 15px;
+}
+li.dws-li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #3a494c;
+	font-weight: 700;
+	outline: none;
+	display: inline-block;
+}
+.dws-menu a:hover {
+	border-bottom: 0.5px solid #3a494c; 
+	transition: .5s;
+}
+
+.head img {
+	vertical-align: middle;
+	width: 190px;
+	height: 60px;
+}
+		/*=================
+			Баннер сайта
+		 ================= */
+.container-banner{
+	margin-top: 30px;
+	padding-bottom: 40px;
+}
+
+.banner {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.banner-text {
+	width: 350px;
+	letter-spacing: 0.6px;
+
+}
+.banner-text h2{
+	color: #575757;
+	font-size: 40px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: normal;
+}
+.banner-text p {
+	font-size: 12px;
+	line-height: 20px;
+	padding-top: 0.5em;
+	color: #8e8e8e;
+	width: 100%;
+}
+		/*=================
+			Работы портфолио
+		 ================= */
+
+.title-potrfolio {
+	color: #a2a3a3;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 3em;
+	font-weight: 400;
+}
+.portfolio-wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.cart-img {
+	width: 30%;
+	height: 220px;
+	display: inline-block;
+	margin-top: 45px;
+	position: relative;
+	overflow: hidden;
+}
+.cart-img img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.descr {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(60,179,113,.5);
+	text-align: center;
+	padding-top: 70px;
+	box-sizing: border-box;
+	opacity: 0;
+	transform: scale(0);
+	transition: all .5s;
+}
+.descr p {
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+}
+.button {
+	width: 130px;
+	height: 40px;
+	border-radius: 5%;
+	border: none;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+}
+.cart-img:hover .descr {
+	opacity: 1;
+	transform: scale(1);
+}
