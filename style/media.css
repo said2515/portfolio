@@ -67,6 +67,20 @@
 	.title-potrfolio {
 		text-align: center;
 	}
+	.title-services {
+		text-align: center;
+	}
+	.services-list {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		text-align: center;
+	}
+	.services-card {
+		width: 30%;
+	}
 }
 @media all and (max-width: 574px) {
 	.container {
@@ -95,5 +109,13 @@
 	}
 	.title-potrfolio {
 		text-align: center;
+	}
+	.services-list {
+		display: block;
+		text-align: center;
+	}
+	.services-card {
+		margin: auto;
+		width: 80%;
 	}
 }

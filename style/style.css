@@ -162,3 +162,41 @@ li.dws-li a {
 	opacity: 1;
 	transform: scale(1);
 }
+.title-services {
+	color: #a2a3a3;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 3em;
+	font-weight: 400;
+	margin-top: 40px;
+}
+.services-list {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+
+.services-card {
+	width: 30%;
+	text-align: center;
+}
+.services-card img {
+	display: block;
+	margin: auto;
+}
+.services-card p {
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	margin-top: 10px;
+	color: #8e8e8e;
+	font-size: 16px;
+}
+.services-card h3 {
+	color: #323232;
+	font-size: 20px;
+	font-weight: 700;
+}
