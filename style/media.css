@@ -81,6 +81,26 @@
 	.services-card {
 		width: 30%;
 	}
+	.contact_wrapper {
+		width: 95%;
+	}
+	.form_inputs {
+		display: block;
+		width: 95%;
+	}
+	.form_inputs input  {
+		width: 104%;
+	}
+	.social {
+		margin-left: 35%;
+	}
+	.footer-social p  {
+		display: none;
+	}
+	.button_block {
+		display: block;
+		text-align: center;
+	}
 }
 @media all and (max-width: 574px) {
 	.container {
@@ -118,4 +138,26 @@
 		margin: auto;
 		width: 80%;
 	}
+	.contact_wrapper {
+		width: 95%;
+	}
+	.form_inputs {
+		display: block;
+		width: 95%;
+	}
+	.form_inputs input  {
+		width: 104%;
+	}
+	.social {
+		margin-left: 25%;
+		width: 100%;
+	}
+	.footer-social p  {
+		display: none;
+	}
+	.button_block {
+		display: block;
+		text-align: center;
+	}
+	
 }
